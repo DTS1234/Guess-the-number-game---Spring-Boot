@@ -1,7 +1,10 @@
 adam\spring\NumberGenerator.class
-adam\spring\AppConfig.class
 adam\spring\MessageGenerator.class
+adam\spring\MaxNumber.class
+adam\spring\GuessCount.class
+adam\spring\MinNumber.class
 adam\spring\MessageGeneratorImpl.class
 adam\spring\NumberGeneratorImpl.class
+adam\spring\config\GameConfig.class
 adam\spring\Game.class
 adam\spring\GameImpl.class
