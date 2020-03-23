@@ -1,0 +1,20 @@
+<thlogic>
+
+    <attr sel="#headId"
+          th:replace="~{fragments/head :: headFragment}"/>
+    <attr sel="#game-title"
+          th:text="#{game.title}"/>
+    <attr sel="#mainMessage"
+          th:text="${__${T(adam.spring.util.AttributeNames).MAIN_MESSAGE}__}"/>
+    <attr sel="#resultMessage"
+          th:text="${__${T(adam.spring.util.AttributeNames).RESULT_MESSAGE}__}"/>
+    <attr sel="#game-from"
+          th:action = "@{__${T(adam.spring.util.GameMappings).PLAY}__}"/>
+    <attr sel="#footer-id"
+          th:replace="~{fragments/footer :: footerFragment}"/>
+    <attr sel="#enter-guess"
+          th:text="#{game.enter.guess}"/>
+    <attr sel="#submit"
+          th:value="#{game.submit}"/>
+
+</thlogic>

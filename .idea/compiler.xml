@@ -9,10 +9,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="core" />
         <module name="consolev2" />
+        <module name="web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="console" target="11" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consolev2" options="-parameters" />
+      <module name="core" options="-parameters" />
+      <module name="web" options="-parameters" />
+    </option>
   </component>
 </project>

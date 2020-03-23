@@ -1,0 +1,17 @@
+<thlogic>
+
+    <attr sel="#headId"
+          th:replace="~{fragments/head :: headFragment}"/>
+    <attr sel="#mainMessage"
+          th:text="${__${T(adam.spring.util.AttributeNames).MAIN_MESSAGE}__}"/>
+    <attr sel="#resultMessage"
+          th:text="${__${T(adam.spring.util.AttributeNames).RESULT_MESSAGE}__}"/>
+    <attr sel="#play-link"
+          th:href="@{__${T(adam.spring.util.GameMappings).PLAY}__}"
+          th:text="#{game.play}"/>
+    <attr sel="#footer-id"
+          th:replace="~{fragments/footer :: footerFragment}"/>
+    <attr sel="#welcome-id"
+          th:text="#{game.welcome}"/>
+
+</thlogic>

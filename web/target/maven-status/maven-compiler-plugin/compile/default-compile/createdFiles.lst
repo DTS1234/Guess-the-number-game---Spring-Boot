@@ -1,0 +1,10 @@
+adam\spring\util\AttributeNames.class
+adam\spring\service\GameServiceImpl.class
+adam\spring\interceptor\RequestInterceptor.class
+adam\spring\util\thymeleaf\DecoupledLogicSetup.class
+adam\spring\controller\GameController.class
+adam\spring\service\GameService.class
+adam\spring\util\ViewNames.class
+adam\spring\util\GameMappings.class
+adam\spring\WebMain.class
+adam\spring\config\WebConfig.class
